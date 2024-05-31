@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="partnerPortal.ParnterPortalSmoke">
+      <class name="OAuth.OAuthTest">
         <methods>
-          <include name="launch"/>
-          <include name="report"/>
-          <include name="TearDown"/>
+          <include name="initial"/>
         </methods>
-      </class> <!-- partnerPortal.ParnterPortalSmoke -->
+      </class> <!-- OAuth.OAuthTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
